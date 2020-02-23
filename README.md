@@ -3,6 +3,10 @@
 Following are links to projects I've been involved with in the past few years.
 Some projects have proper documentation @ [Hackaday.io/urish](https://hackaday.io/urish), some are simply code snippets with either a Fritzing image or a more complete schematic drawn in KiCad.
 
+## ESP32-Arduino WiFi configuration over Bluetooth-LE sketch
+An expansion of [Bernd Giesecke's](https://desire.giesecke.tk/index.php/2018/04/06/esp32-wifi-setup-over-ble/) sketch, which expands usability by adding discovered access point list on demand (via characteristic read), and WiFi connection status via push (characteristic notify). Code checked to confirm it works under Arduino IDE and PlatformIO. \
+[My github repo](https://github.com/UriShX/esp32_wifi_ble_advanced).
+
 ## WiFi configuration utility web app using Bluetooth LE for ESP32
 A single page app written with Knockout & Sammy JS, to configure WiFi credentials over BLE. The app is designed to work with [Bernd Giesecke's](https://desire.giesecke.tk/index.php/2018/04/06/esp32-wifi-setup-over-ble/) Arduino / PlatformIO sketch. I intend to add some features to the app for improving usability and security in the near future (02/2020).
 ['ESP32 WiFi config' web app](https://urishx.github.io/esp32_web-ble_wifi_config/),
